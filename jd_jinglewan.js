@@ -18,8 +18,7 @@ let qlHost = "127.0.0.1:5700"
 let scriptName = "jd_jinglewan"
 
 var fs = require("fs")
-#let authFile = JSON.parse(fs.readFileSync("/ql/data/config/auth.json"))
-#let qlToken = authFile.token
+
 
 let envSplitor = ['&','\n']
 let httpResult, httpReq, httpResp
